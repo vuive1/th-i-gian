@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Timer</title>
+    <script>
+        function startTimer() {
+            var startTime = new Date().getTime();
+            localStorage.setItem('start_time', startTime);
+            window.location.href = 'https://sites.google.com/view/2k7-nix?usp=sharing';
+        }
+    </script>
+</head>
+<body>
+    <button onclick="startTimer()">Bắt đầu</button>
+</body>
+</html>
